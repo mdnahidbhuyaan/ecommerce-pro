@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div className="flex flex-col overflow-hidden bg-white">
       {/* common components  */}
-      <h1>Header components</h1>
+      <h1>Header componentss</h1>
       <Routes>
         <Route path="/auth" element={<AuthLayout />}>
           <Route path="login" element={<AuthLogin />} />
