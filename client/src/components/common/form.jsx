@@ -111,7 +111,7 @@ function CommonForm({
     <form onSubmit={onSubmit} className="">
       <div className="flex flex-col gap-3">
         {formControls.map((controlItem) => (
-          <div className="grid w-full gap-1.5" key={controlItem.name}>
+          <div  className="grid w-full gap-1.5 bg-green-50 p-2 rounded-md shadow-md [&_input::placeholder]:text-slate-400" key={controlItem.name}>
             <Label className="mb-1">{controlItem.label}</Label>
             {renderInputsByComponentType(controlItem)}
           </div>
