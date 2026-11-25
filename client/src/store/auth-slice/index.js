@@ -30,6 +30,19 @@ export const loginUser = createAsyncThunk("/auth/login", async (formData) => {
   );
   return response.data;
 });
+export const checkAuth = createAsyncThunk(
+  "/auth/register",
+  async (formData) => {
+    const response = await axios.post(
+      `${import.meta.env.VITE_API_URL}/api/auth/register`,
+      formData,
+      {
+        withCredentials: true,
+      },
+    );
+    return response.data;
+  },
+);
 
 const authSlice = createSlice({
   name: "auth",
