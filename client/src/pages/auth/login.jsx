@@ -36,7 +36,7 @@ function AuthLogin() {
   return (
     <div className="flex min-h-[85vh] w-full items-center justify-center px-4 py-12">
       <div className="w-full max-w-md">
-        <div className="w-full rounded-3xl border border-slate-100 bg-white p-7 shadow-xl shadow-indigo-100/90 sm:p-10">
+        <div className="w-full rounded-3xl border border-blue-100 bg-white p-7 shadow-xl shadow-blue-100/50 sm:p-10">
           {/* Logo */}
           <div className="mb-8 text-center">
             <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-600 to-violet-600 shadow-lg shadow-indigo-200">

@@ -29,7 +29,7 @@ const App = () => {
   useEffect(() => {
     dispatch(checkAuth());
   }, [dispatch]);
-  if (isLoading) return <Skeleton className="w-[800] bg-black h-[600px]" />;
+  if (isLoading) return <Skeleton className="w-[800] bg-slate-50 h-[600px]" />;
   console.log(isLoading, user);
   return (
     <div className="flex flex-col overflow-hidden bg-white">
